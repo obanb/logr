@@ -19,7 +19,7 @@ Logr is a tool for **mocking and measuring web communication**. It allows to sim
 
 ###  About technology:
 1. `Deno` runtime and `standard library`, `Oak` routes.
-2. Long running operations handled by spawning Web workers that communicate with each other using `Message channels` and their `ports`. Processes can therefore be influenced at runtime with minimal overhead, unlike JS `Promise`.
+2. Long running operations handled by spawning `Web workers` that communicate with each other using `Message channels` and their `ports`. Processes can therefore be influenced at runtime with minimal overhead, unlike JS `Promise`.
 3. `Web sockets` for online application output.
 4. Simple `JSON`storage.
 5.`Typescript` (self explanatory with `Deno`).
