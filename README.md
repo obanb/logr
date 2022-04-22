@@ -93,6 +93,8 @@ Logr is a tool for **mocking and measuring web communication**. It allows to sim
 * swagger
 * kubernetes integration
 * docker version
+* logo
+* blog article
 
 ### Diagrams
 
