@@ -39,6 +39,14 @@ Logr is a tool for **mocking and measuring web communication**. It allows to sim
       };
 
    ```
+`confits.ts` options:
+
+* **BROADCAST_WORKER_URL**: Path to the `broadcast worker`, which is generated in 1..N copies (depending on the number of running operations) to listen to instructions.
+* **PROXY_SERVER_URL**: The URL of a `proxy` `HTTP server` used to simulate the target server before a live in-process or configuration test.
+* **PROXY_SERVER_PORT**: `Proxy` `HTTP server` port.
+* **PROXY_SERVER_MIRROR_PATH**: The address to which the proxy server logs incoming communications.
+* **CORE_HTTP_SERVER_PORT**: Application core `HTTP server` port.
+* **STORAGE_JSON**: Path to `JSON` storage.
 
 
 
