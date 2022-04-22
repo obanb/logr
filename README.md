@@ -51,7 +51,7 @@ Lógr is a tool for **mocking and measuring web communication**. It allows to si
 
 ### Usage
 
-1. `POST` to URL `/activeEndpoint/register` to register a new "active endpoint"
+1. `POST` to URL `/activeEndpoint/register` to register a new "active endpoint", it returns the ID of the newly created endpoint
 
 `Request`
 
@@ -84,6 +84,12 @@ Lógr is a tool for **mocking and measuring web communication**. It allows to si
       }
    }
 }
+```
+
+`Response`
+
+```
+e0bd2250-7292-4b54-bdce-7b8a7d568aad
 ```
 
 ### TODOs
