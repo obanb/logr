@@ -24,6 +24,22 @@ Logr is a tool for **mocking and measuring web communication**. It allows to sim
 4. Simple `JSON`storage.
 5.`Typescript` (self explanatory with `Deno`).
 
+### Configuration
+
+1. `config.ts`:
+
+   ```json
+     "config = {
+        BROADCAST_WORKER_URL: "./broadcastWorker.ts",
+        PROXY_SERVER_URL: "http://localhost",
+        PROXY_SERVER_PORT: 8081,
+        PROXY_SERVER_MIRROR_PATH: "/mirror",
+        CORE_HTTP_SERVER_PORT: 8080,
+        STORAGE_JSON: "./src/storage.json",
+      };
+
+   ```
+
 
 
 <img align="left" width="771" height="541" src="https://drive.google.com/uc?export=view&id=1cTlSpRI8v1KyhAP1rXwDRVieWE4nxDfI">
