@@ -78,10 +78,20 @@ Logr is a tool for **mocking and measuring web communication**. It allows to sim
 }
 ```
 
-### Diagrams
-
-
 ### TODOs
+readme updates
+graphql schema support
+request catcher
+schema hash support
+tests
+plugins
+CLI version
+web sockets mock
+measuring
+full version (frontend, graphs)
+log storage
+
+### Diagrams
 
 ###
 
