@@ -13,7 +13,7 @@ Logr is a tool for **mocking and measuring web communication**. It allows to sim
 2. **Online administration** of creation and customization of operations/endpoints. 
    The progress of the mocks can be paused, the number of requests per second can be increased or decreased, or error conditions or timeouts can be simulated.
 3. Optional use of connecting outputs to **web sockets**.
-4. **Simple customization**.
+4. Simple customization.
 5. Almost pure use of `Deno standard library`. No third-party libraries except `Oak` middleware framework.
 
 
