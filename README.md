@@ -4,7 +4,7 @@ Logr is a tool for mocking and measuring web communication. It allows to simulat
 
 
 
-## Motivation:
+### Motivation:
 1. To enable quick and easy mocking and measurement of web communication without tedious schema definition. 
 2. Exploration of Deno technology and the possibility of influencing independently running processes. Following the example of Go (Goroutines, Channels), in a JS environment (Web workers, Message channels, ports).
 
