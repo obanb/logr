@@ -1,6 +1,6 @@
 # Logr 
 
-Logr is a tool for **mocking and measuring web communication**. It allows to simulate both the **active sender side** and the "passive" API on the **receiver side**. The tool is primarily intended for local use in development.
+Logr is a tool for **mocking and measuring web communication**. It allows to simulate both the **active sender side** and the "passive" `API` on the **receiver side**. The tool is primarily intended for local use in development.
 
 
 
