@@ -51,6 +51,32 @@ Logr is a tool for **mocking and measuring web communication**. It allows to sim
 
 ### Usage
 
+```
+{
+   "options":{
+      "useProxy":true,
+      "perSec":0.5,
+      "request":{
+         "count":33,
+         "type":"outage",
+         "address":{
+            "city":"Prague",
+            "streets":[
+               {
+                  "street":"Francouzska",
+                  "number":"23"
+               },
+               {
+                  "street":"Italska",
+                  "number":"1176"
+               }
+            ],
+            "postalCode":"280 02"
+         }
+      }
+   }
+}
+```
 
 ### Diagrams
 
