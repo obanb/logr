@@ -2,7 +2,7 @@
 
 Logr is a tool for **mocking and measuring web communication**. It allows to simulate both the **active sender side** and the "passive" `API` on the **receiver side**. The tool is primarily intended for local use in development.
 
-
+#### State: `Under development`
 
 ### Motivation:
 1. To enable **quick and easy mocking and measurement of web communication** without tedious schema definition. 
