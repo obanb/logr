@@ -28,7 +28,7 @@ Logr is a tool for **mocking and measuring web communication**. It allows to sim
 
 1. `config.ts`:
 
-   ```json
+   ```
       config = {
         BROADCAST_WORKER_URL: "./broadcastWorker.ts",
         PROXY_SERVER_URL: "http://localhost",
