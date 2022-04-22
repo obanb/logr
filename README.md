@@ -51,6 +51,12 @@ Lógr is a tool for **mocking and measuring web communication**. It allows to si
 
 ### Usage
 
+1. POST to URL `/activeEndpoint/register` to register a new "active endpoint"
+
+```
+/activeEndpoint/register
+```
+
 ```
 {
    "options":{
